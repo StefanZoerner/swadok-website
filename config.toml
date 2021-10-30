@@ -138,16 +138,13 @@ icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
 link = "mailto:stefan@swadok.de"
 
 [[params.social]]
+icon = "ti-angle-double-right" # themify icon pack : https://themify.me/themify-icons
+link = "https://xing.to/szr"
+
+[[params.social]]
 icon = "ti-twitter" # themify icon pack : https://themify.me/themify-icons
 link = "https://twitter.com/StefanZoerner"
 
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.linkedin.com/in/stefan-zoerner/"
-
-[[params.social]]
-icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "https://github.com/DokChess"
 
 
 ################################### German language #####################################
