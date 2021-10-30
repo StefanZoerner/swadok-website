@@ -55,7 +55,7 @@ slider:
       label: Mehr dazu
       link : "beispiel"
 
-########################################## Service ####################################
+########################################## Features ####################################
 feature:
   enable : true
   title: "Was es ausmacht"
@@ -154,7 +154,7 @@ testimonial:
   enable : true
   subtitle : Stimmen
   title : Was Leute über das Buch sagen
-  image : images/cover_493x691.png
+  image : images/3_Auflagen_540x540.png
   testimonial_item :
   - name : Martin Dungs
     content : Mit dem Buch 'Softwarearchitekturen dokumentieren und kommunizieren' von Stefan Zörner gibt es endlich eine praxistaugliche Anleitung zur effizienten Dokumentation von Softwarearchitekturen.
