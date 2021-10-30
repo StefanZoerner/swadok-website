@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+{{ with .Params.intro }}
+{{ if .enable }}
+{{ "<!-- intro -->" | safeHTML }}
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 order-2 order-lg-1">
+				<h5 class="section-title-sm">{{ .subtitle | markdownify }}</h5>
+				<h2 class="section-title section-title-border-half">{{ .title | markdownify }}</h2>
+				<p>{{ .content | markdownify }}</p>
+			</div>
+			{{ "<!-- philosophy image -->" | safeHTML }}
+			<div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
+				<img class="img-fluid w-100" src="{{ .image | relURL }}" alt="autor-intro-image">
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- /intro -->" | safeHTML }}
+{{ end }}
+{{ end }}
+
+{{ with .Params.video }}
+{{ if .enable }}
+{{ "<!-- promo-video -->" | safeHTML }}
+<section class="promo-video overlay section"
+	style="background-image: url('{{ .bg_image | absURL }}');">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="text-white mb-20 font-weight-normal">{{ .title |safeHTML }}</h1>
+				<div class="d-flex">
+					<a class="popup-youtube play-icon mr-4" href="{{ .video_URL | safeURL }}"><i class="ti-control-play"></i></a>
+					<p class="text-white align-self-center h4">{{ .video_title | markdownify }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- /promo-video -->" | safeHTML }}
+{{ end }}
+{{ end }}
+
+{{ with .Params.contact_info }}
+{{ if .enable }}
+{{ "<!-- contact -->" | safeHTML }}
+<a id="kontakt"></a>
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 offset-lg-1 col-md-5">
+				<h2 class="section-title">{{ i18n "contact_us" }}</h2>
+				<ul class="pl-0">
+					{{ "<!-- contact items -->" | safeHTML }}
+					{{ range .infos }}
+					<li class="d-flex mb-30">
+						<i class="round-icon mr-3 {{ .icon }}"></i>
+						<div class="align-self-center font-primary">
+							<div class="text-dark">{{ .content | markdownify }}</div>
+						</div>
+					</li>
+					{{ end }}
+				</ul>
+			</div>
+			{{ "<!-- form -->" | safeHTML }}
+			<div class="col-lg-6 col-md-7 align-self-center order-1 order-lg-2 mb-md-50">
+				<img class="img-fluid w-100" src="{{ .image | relURL }}" alt="contact-image">
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- /contact -->" | safeHTML }}
+{{ end }}
+{{ end }}
+
+{{ end }}

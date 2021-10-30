@@ -1,0 +1,95 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+{{ with .Params.intro }}
+{{ if .enable }}
+{{ "<!-- philosophy -->" | safeHTML }}
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 order-2 order-lg-1">
+				<h5 class="section-title-sm">{{ .subtitle | markdownify }}</h5>
+				<h2 class="section-title section-title-border-half">{{ .title | markdownify }}</h2>
+				<p>{{ .content | markdownify }}</p>
+			</div>
+			{{ "<!-- philosophy image -->" | safeHTML }}
+			<div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
+				<img class="img-fluid w-100" src="{{ .image | relURL }}" alt="philosophy-image">
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- /philosophy -->" | safeHTML }}
+{{ end }}
+{{ end }}
+
+
+{{ with .Params.funfacts }}
+{{ if .enable }}
+{{ "<!-- funfacts -->" | safeHTML }}
+<section class="fun-facts overlay-dark section-sm"
+  style="background-image: url('{{ .bg_image | absURL }}');">
+  <div class="container">
+    <div class="row">
+      {{ range .counter }}
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div
+          class="d-flex flex-sm-row flex-column justify-content-lg-center align-items-center text-center text-sm-left">
+          <i class="round-icon {{ .icon }} mr-sm-3 mr-0 mb-3 mb-sm-0"></i>
+          <div class="text-center text-sm-left">
+            <h2 class="count text-white mb-0" data-count="{{ .count }}">0</h2>
+            <p class="text-white mb-0">{{ .title }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ "<!-- /funfacts -->" | safeHTML }}
+{{ end }}
+{{ end }}
+
+<!-- mission -->
+{{ if .Params.mission.enable }}
+{{ if .Params.mission.inherit_homepage }}
+{{ with .GetPage "/" }}
+{{ partial "mission.html" . }}
+{{ end }}
+{{ else }}
+{{ partial "mission.html" . }}
+{{ end }}
+{{ end }}
+
+{{ if .Params.stichpunkte.enable }}
+{{ "<!-- stichpunkte -->" | safeHTML }}
+{{ with .Params.stichpunkte }}
+<section class="about section-sm overlay" style="background-image: url('{{ .bg_image | absURL }}');">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 ml-auto">
+				<div class="rounded p-sm-5 px-3 py-5 bg-secondary">
+					<h3 class="section-title section-title-border-half text-white">{{ .title | markdownify }}</h3>
+					<p class="text-white mb-40">{{ .content | markdownify }}</p>
+					<ul class="list-unstyled" style="columns: 2;">
+						{{ range .bullet_point }}
+						<li class="font-secondary mb-10 text-white"><i class="text-primary mr-2 ti-arrow-circle-right"></i>{{ . }}</li>
+						{{ end }}
+					</ul>
+					{{ if .button.enable }}
+					{{ with .button }}
+					<a href="{{ .link | relLangURL }}" class="btn btn-primary mt-4">{{ .label }}</a>
+					{{ end }}
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ "<!-- /stichpunkte -->" | safeHTML }}
+{{ end }}
+
+
+{{ end }}
