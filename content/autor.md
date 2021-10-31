@@ -2,7 +2,7 @@
 title: "Der Autor"
 header_title: "Stefan Zörner"
 date: 2018-07-12T18:19:33+06:00
-bg_image: images/background/page-title-autor.jpg
+bg_image: images/page-title/page-title-autor.jpg
 description : "This is meta description"
 layout: "autor"
 draft: false

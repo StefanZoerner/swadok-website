@@ -3,7 +3,7 @@ title: "Confluence"
 header_title: "Atlassian Confluence"
 date: 2018-09-24T14:48:03+06:00
 description : "This is meta description"
-bg_image: images/background/page-title.jpg
+bg_image: images/page-title/page-title-default.jpg
 image : images/project/beispiel_confluence.jpg
 live_demo : "https://www.informatik-aktuell.de/entwicklung/methoden/architektur-ohne-firlefanz-ihre-loesung-auf-einem-bierdeckel.html"
 # case_study : "#"

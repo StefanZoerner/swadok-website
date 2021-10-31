@@ -3,7 +3,7 @@ title: "Gradle"
 header_title: "arc42-Starschnitt Gradle"
 date: 2018-09-24T14:48:03+06:00
 description : "This is meta description"
-bg_image: images/background/page-title.jpg
+bg_image: images/page-title/page-title-default.jpg
 image : images/project/beispiel_gradle.jpg
 live_demo : "https://www.embarc.de/arc42-starschnitt-gradle/"
 # case_study : "#"
