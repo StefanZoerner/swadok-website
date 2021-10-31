@@ -28,6 +28,19 @@ slider:
       enable : true
       label: Mehr
       link : "autor"
+
+  # slider item loop
+  - bg_image : images/banner/banner-beispiele.jpg
+    animation_from : right
+    subtitle : Ideen illustriert anhand vieler
+    title : Beispiele
+    content : Wie sieht das Ganze in Aktion aus? Die Zutaten angefertigt <br>und zusammengefügt für verschiedene Software-Systeme. <br>Angefertigt fürs Buch, für Workshops und Vorträge, Blogbeiträge, ... 
+    pagination_icon : ti-eye # themify icon pack : https://themify.me/themify-icons
+    pagination_name : Beispiele
+    button:
+      enable : true
+      label: Mehr dazu
+      link : "beispiel"
       
   # slider item loop
   - bg_image : images/banner/banner-download.jpg
@@ -42,19 +55,7 @@ slider:
       label: Mehr dazu
       link : "buch"
       
-  # slider item loop
-  - bg_image : images/banner/banner-beispiele.jpg
-    animation_from : right
-    subtitle : Ideen illustriert anhand vieler
-    title : Beispiele
-    content : Wie sieht das Ganze in Aktion aus? Die Zutaten angefertigt <br>und zusammengefügt für verschiedene Software-Systeme. <br>Angefertigt fürs Buch, für Workshops und Vorträge, Blogbeiträge, ... 
-    pagination_icon : ti-eye # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Beispiele
-    button:
-      enable : true
-      label: Mehr dazu
-      link : "beispiel"
-
+  
 ########################################## Features ####################################
 feature:
   enable : true
