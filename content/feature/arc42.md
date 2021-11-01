@@ -15,5 +15,5 @@ Für die hohe Bekanntheit und Verbreitung gibt es unterschiedliche Gründe, ganz
 
 Stefan Zörner ist selber Contributor beim arc42-Projekt und trägt der hohen Verbreitung von arc42 in seinem Buch Rechnung:
 
-1. Kapitel 4 (Plädoyer für eine feste Gliederung) stellt arc42 vor und vergleicht es mit „der Konkurrenz“.
-2. Die Steckbriefe für die einzelnen Zutaen nennen jeweils den „Ablageort“ in arc42
+* Kapitel 4 („Plädoyer für eine feste Gliederung„) stellt arc42 vor und vergleicht es mit „der Konkurrenz“.
+* Die Steckbriefe für die einzelnen Zutaten nennen jeweils den „Ablageort“ in arc42

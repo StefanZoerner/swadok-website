@@ -612,7 +612,10 @@ button {
 
 
 .post-content {
-	ol{
+	p {
+		font-family: $primary-font;
+	}
+	ol, ul {
 		padding-left: 20px;
 		margin-bottom: 20px;
 		li{
