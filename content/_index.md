@@ -26,21 +26,8 @@ slider:
     pagination_name : Der Autor
     button:
       enable : true
-      label: Mehr
+      label: Mehr zu ihm
       link : "autor"
-
-  # slider item loop
-  - bg_image : images/banner/banner-beispiele.jpg
-    animation_from : right
-    subtitle : Ideen illustriert anhand vieler
-    title : Beispiele
-    content : Wie sieht das Ganze in Aktion aus? Die Zutaten angefertigt <br>und zusammengefügt für verschiedene Software-Systeme. <br>Angefertigt fürs Buch, für Workshops und Vorträge, Blogbeiträge, ... 
-    pagination_icon : ti-eye # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Beispiele
-    button:
-      enable : true
-      label: Mehr dazu
-      link : "beispiel"
       
   # slider item loop
   - bg_image : images/banner/banner-download.jpg
@@ -53,9 +40,21 @@ slider:
     button:
       enable : true
       label: Mehr dazu
-      link : "buch"
+      link : "material"
       
-  
+  # slider item loop
+  - bg_image : images/banner/banner-beispiele.jpg
+    animation_from : left
+    subtitle : Ideen illustriert anhand vieler
+    title : Beispiele
+    content : Wie sieht das Ganze in Aktion aus? Die Zutaten angefertigt <br>und zusammengefügt für verschiedene Software-Systeme. <br>Angefertigt fürs Buch, für Workshops und Vorträge, Blogbeiträge, ... 
+    pagination_icon : ti-eye # themify icon pack : https://themify.me/themify-icons
+    pagination_name : Beispiele
+    button:
+      enable : true
+      label: Mehr dazu
+      link : "beispiel"
+
 ########################################## Features ####################################
 feature:
   enable : true
@@ -155,32 +154,19 @@ testimonial:
   enable : true
   subtitle : Stimmen
   title : Was Leute über das Buch sagen
-  image : images/3_Auflagen_540x540.png
+  image : images/cover_493x691.png
   testimonial_item :
-
   - name : Martin Dungs
     content : Mit dem Buch 'Softwarearchitekturen dokumentieren und kommunizieren' von Stefan Zörner gibt es endlich eine praxistaugliche Anleitung zur effizienten Dokumentation von Softwarearchitekturen.
-    designation : aus einer Amazon-Rezension zur 1. Auflage
-
-  - name : René L.
-    content : Ich habe noch keine Fachliteratur gelesen die ich so verschlungen habe! Toll geschrieben und sehr inspirierend!
-    designation : aus einer Amazon-Rezension zur 2. Auflage
-  
-  - name : Dr. Gernot Starke
+    designation : Amazon-Rezension
+    
+  - name : Gernot Starke
     content : Als Reviewer durfte ich ja schon vor längerer Zeit frühe Versionen testlesen. Mehr als einmal haben mir Stefans Ratschläge in konkreten Projektsituationen seitdem geholfen.
     designation : aus dem Geleitwort zur 1. Auflage
     
   - name : Thomas Allweyer
     content : Wie eine gelungene Architekturdokumentation aussehen kann, thematisiert Stefan Zörner in seinem neu erschienen Buch Softwarearchitekturen dokumentieren und kommunizieren. Dabei beschreibt er einen praktikablen Weg, der sich gerade auch für agile Projekte eignet.
-    designation : aus der Besprechung der 1. Auflage im Blog "Kurze Prozesse"
-
-  - name : iX-Magazin
-    content: Es gibt diverse Bücher über Softwarearchitekturen. Stefan Zörner widmet allein der Dokumentation und der damit verbundenen Kommunikation ein ganzes. Das ermöglicht ihm, das Thema deutlich detaillierter als üblich auszuleuchten. ... Insgesamt ein lesenswertes Buch, reichlich bebildert und mit eingestreuten Praxistipps versehen.
-    designation : aus einer Rezension der 1. Auflage
-
-  - name : dotnetpro-Magazin
-    content: Eine detaillierte, klare Gliederung und ein äußerst angenehmes Druckbild tragen ebenfalls dazu bei, dass der Titel sich die Gesamtnote Sehr gut verdient hat.
-    designation : aus einer Rezension der 1. Auflage
+    designation : Besprechung im Blog "Kurze Prozesse"
 
 ##################################### call to action #################################
 call_to_action:

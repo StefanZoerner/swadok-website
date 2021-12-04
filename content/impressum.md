@@ -1,6 +1,6 @@
 ---
 title: "Impressum"
-bg_image: images/page-title/page-title-letters.jpg
+bg_image: images/background/page-title-letters.jpg
 draft: false
 ---
 
