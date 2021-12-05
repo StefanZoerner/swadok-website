@@ -17,7 +17,7 @@
 - id: service_brochure
   translation: Service Brochure
 - id: download_pdf
-  translation: Download pdf
+  translation: Als PDF herunterladen
 - id: opening_hours
   translation: Opening Hours
 - id: contact_info
@@ -33,7 +33,7 @@
 - id: live_demo
   translation: Online Anschauen
 - id: case_study
-  translation: Complete Case Study
+  translation: Fallbeispiel
 - id: free_consultation
   translation: Request Free Consultation
 - id: all

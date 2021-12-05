@@ -1,0 +1,29 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+{{ with site.Params.author }}
+<meta name="author" content="{{ . }}">{{ end }}
+{{ hugo.Generator }}
+
+<!--Favicon-->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#83B7B3">
+<meta name="msapplication-TileColor" content="#83b7b3">
+<meta name="theme-color" content="#ff0000">
+
+<!-- plugins -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+{{ range site.Params.plugins.css}}
+<link rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}>
+{{ end }}
+
+<!-- Main Stylesheet -->
+{{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+<link rel="stylesheet" as="style" href="{{ $styles.Permalink }}" media="screen" >
+
+<!-- Custom stylesheet - for your changes -->
+{{ if fileExists "scss/custom.scss" }}
+{{ $custom := resources.Get "scss/custom.scss" | minify }}
+<link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
+{{ end }}
