@@ -3,7 +3,7 @@ title: "DokChess"
 date: 2018-09-24T14:48:03+06:00
 description : "This is meta description"
 bg_image: images/background/page-title.jpg
-image : images/project/beispiel_dokchess.jpg
+image : images/beispiel/beispiel_dokchess.jpg
 live_demo : "https://www.dokchess.de"
 # case_study : "#"
 category: "Aus dem Buch"
