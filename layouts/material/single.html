@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+{{ "<!-- material single -->" | safeHTML }}
+<section class="section">
+	<div class="container">
+		<div class="row">
+			{{ "<!-- sidebar -->" | safeHTML }}
+			<aside class="col-lg-4 order-lg-1 order-2">
+				<ul class="service-menu pl-0 border rounded mb-50 overflow-hidden">
+					{{ range (where site.RegularPages "Type" "material")}}
+					<li class="border-bottom-not-last">
+						<a class="d-block font-primary text-dark p-4" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+					</li>
+					{{ end }}
+				</ul>
+
+				<script>
+					(function () {
+						const links = document.getElementsByTagName('a')
+						const currentUrl = location.href
+						for (const link of links) {
+							if (link.href === currentUrl) {
+								link.classList.add('active')
+							}
+						}
+					}())
+				</script>
+
+				{{ if .Params.Brochure }}
+				{{ "<!-- Brochure -->" | safeHTML }}
+				<div class="rounded border py-3 px-4 mb-50">
+					<i class="d-inline-block mr-1 text-dark ti-files" style="font-size: 20px;"></i>
+					<h4 class="mb-1 d-inline-block">{{ i18n "service_brochure" }}</h4>
+					<a class="font-secondary text-color d-block ml-4"
+						href="{{ .Params.Brochure | absURL }}">{{ i18n "download_pdf" }}</a>
+				</div>
+				{{ end }}
+
+				{{ if .Params.RegularDay }}
+				{{ "<!-- Opening Hours -->" | safeHTML }}
+				<div class="mb-50">
+					<h5 class="mb-20">{{ i18n "opening_hour" }}</h5>
+					<ul class="pl-0 border rounded px-4 py-3">
+						<li class=" font-secondary my-3 text-color">
+							<span class="d-inline-block font-weight-light text-dark"
+								style="width: 130px;">{{ .Params.RegularDay }}:</span>{{ .Params.RegularTime }}</li>
+						<li class=" font-secondary my-3 text-color">
+							<span class="d-inline-block font-weight-light text-dark"
+								style="width: 130px;">{{ .Params.HalfDay }}:</span>{{ .Params.HalfTime }}</li>
+						<li class="text-danger font-secondary my-3">
+							<span class="d-inline-block font-weight-light text-dark"
+								style="width: 130px;">{{ .Params.OffDay }}:</span>Closed</li>
+					</ul>
+				</div>
+				{{ end }}
+
+				
+			</aside>
+			{{ "<!-- service single content -->" | safeHTML }}
+			<div class="col-lg-8 order-lg-2 order-1">
+
+				{{ with .Params.intro }}
+				{{ if .enable }}				
+				{{ "<!-- intro -->" | safeHTML }}
+				<h5 class="section-title-sm">{{ .subtitle | markdownify }}</h5>
+				<h2 class="section-title section-title-border-half">{{ .title | markdownify }}</h2>
+				<p>{{ .content | markdownify }}</p>
+				
+				{{ "<!-- /intro -->" | safeHTML }}
+				{{ end }}
+				{{ end }}
+				<div class="post-content">
+					{{ .Content }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- /service single -->" | safeHTML }}
+
+{{ end }}
