@@ -30,4 +30,4 @@ Die folgende Abbildung aus dem Buch zeigt arc42 in der Version 4.0 -- sie stammt
 
 #### arc42 und das Buch
 
-Das Buch diskutiert nicht nur arc42 und Alternativen dazu. Es ordnet die Dokumentationsmittel zu dem in die Gliederng von arc42 ein. Das Fallbeispiel liegt sogar gegliedert nach arc42 vor.
+Das Buch diskutiert nicht nur arc42 und Alternativen dazu. Es ordnet die Dokumentationsmittel zu dem in die Gliederng von arc42 ein. Das [Fallbeispiel DokChess](/feature/durchgaengiges-beispiel/) liegt sogar gegliedert nach arc42 vor.
