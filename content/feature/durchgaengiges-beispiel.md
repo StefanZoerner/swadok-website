@@ -7,6 +7,11 @@ icon: ti-control-forward
 type : feature
 weight: 20
 
+kachel_image: images/feature/fallbeispiel.jpg
+kachel_icon: ti-control-forward
+kachel_text: "DokChess. Hier steht ein Text."
+
+
 intro:
   enable : true
   subtitle : Feature
