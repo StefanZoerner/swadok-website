@@ -1,10 +1,9 @@
 ---
 title: "Beispiele"
-date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title-beispiele.jpg
-description : "This is meta description"
+description : "Beispiele. Wie sieht das Ganze in Aktion aus?"
 ---
 
 ## Beispiele
 
-Tolle, tolle Beispiele ...
+Wie sieht das Ganze in Aktion aus?
