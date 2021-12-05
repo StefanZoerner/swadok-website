@@ -1,6 +1,6 @@
 ######################### default configuration ###############################
 baseURL = "/"
-title = "Biztrox"
+title = "swadok.de"
 theme = "biztrox-hugo"
 # post pagination
 paginate = "6"
@@ -92,8 +92,10 @@ logo = "images/logo_bauer.png"
 logo_width = "110px"
 logo_footer = "images/logo-footer.png"
 logo_footer_width = "180px"
+
 mail = "stefan@swadok.de"
 xing_to="xing.to/szr"
+
 # Meta data
 description = "this is meta description"
 author = "themefisher"
@@ -183,14 +185,15 @@ url = "feature/"
 weight = 4
 
 [[Languages.de.menu.main]]
-name = "Beispiele"
-url = "beispiel/"
+name = "Materialien"
+url = "material/"
 weight = 5
 
 [[Languages.de.menu.main]]
-name = "Downloads"
-url = "#"
+name = "Beispiele"
+url = "beispiel/"
 weight = 6
+
 
 
 # footer menu
