@@ -4,6 +4,8 @@ type : feature
 weight: 30
 bg_image: images/feature/setzkasten_370x200.jpg
 
+description : "Feature: Passend zu arc42"
+
 kachel_image: images/feature/setzkasten_370x200.jpg
 kachel_icon: ti-clip
 kachel_text: "arc42 ist ein verbreiteter Gliederungsvorschlag für Architekturbeschreibungen. Das Buch ordnet seine Zutaten in diese Gliederung ein."

@@ -4,6 +4,8 @@ type : feature
 weight: 10
 bg_image: images/feature/zutaten.jpg
 
+description : "Feature: Prägnante Zutaten"
+
 kachel_image: images/feature/zutaten.jpg
 kachel_icon: ti-layout-grid3
 kachel_text: "Das Buch schlägt 15 Dokumentationsmittel vor, mit denen Ihr Eure Softwarearchitektur festhalten und kommunizieren könnt."

@@ -1,7 +1,7 @@
 ---
 
 title: "Softwarearchitekturen dokumentieren und kommunizieren"
-desciption: "Das Standardwerk zu Architekturdokumentation von Stefan Zörner in der 3. Auflage."
+description: "Das Standardwerk zu Architekturdokumentation von Stefan Zörner in der 3. Auflage."
 
 ###################### hero slider ###########################
 slider:

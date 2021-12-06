@@ -1,7 +1,6 @@
 ---
 title: "Corona-Warn-App"
-date: 2018-09-24T14:48:03+06:00
-description : "This is meta description"
+description : "Beispiel: Corona-Warn-App"
 bg_image: images/background/page-title.jpg
 image : images/beispiel/beispiel_cwa.jpg
 live_demo : "https://www.embarc.de/architektur-ueberblicke/#corona-warn-app"
