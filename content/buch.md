@@ -3,7 +3,7 @@ title: "Das Buch"
 header_title: "Softwarearchitekturen dokumentieren"
 date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title-buch.jpg
-description : "This is meta description"
+description : "Ein Buch zum Festhalten von Softwarelösungen."
 layout: "buch"
 draft: false
 

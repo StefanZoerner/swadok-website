@@ -1,9 +1,8 @@
 ---
 title: "Features"
 header_title: "Was das Buch ausmacht"
-date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title-features.jpg
-description : "This is meta description"
+description : "Features. Was das Buch ausmacht."
 
 ###################################### intro ####################################
 intro:

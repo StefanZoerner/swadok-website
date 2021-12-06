@@ -1,7 +1,7 @@
 ---
 title: "Impressum"
 bg_image: images/background/page-title-letters.jpg
-draft: false
+description : "Impressum. Angaben gemäß § 5 TMG, verantwortlich für den Inhalt nach § 55 Abs. 2 RStV, ..."
 ---
 
 ### Angaben gemäß § 5 TMG

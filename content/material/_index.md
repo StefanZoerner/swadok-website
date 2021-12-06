@@ -2,6 +2,7 @@
 title: "Materialen"
 header_title: "Materialien"
 bg_image: images/background/page-title-material.jpg
+description : "Materialien. Sachen zum Herunterladen."
 
 intro:
   enable : true
