@@ -3,7 +3,7 @@ title: "Qualitätsmerkmale"
 type : material
 weight: 40
 
-description : "..."
+description : "Qualitätsmerkmale nach ISO/IEC 25010 (System und Software-Engineering – Qualitätskriterien und Bewertung von System und Softwareprodukten (SQuaRE)"
 
 bg_image: images/material/qualitaetsmerkmale_370x200.jpg
 

@@ -3,7 +3,7 @@ title: "Entscheidungsmindmap"
 type : material
 weight: 50
 
-description : "..."
+description : "Die Entscheidungsmindmap als Strukturierungsvorschlag hilft Eurem Team, die Architekturentscheidung zu bearbeiten und zu einem Ergebnis zu führen."
 bg_image: images/material/entscheidungs-mindmap_370x200.jpg
 
 kachel_image: images/material/entscheidungs-mindmap_370x200.jpg
