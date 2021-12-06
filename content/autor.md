@@ -1,8 +1,11 @@
 ---
 title: "Der Autor"
+html_title: "Der Autor: Stefan Zörner"
 header_title: "Stefan Zörner"
+
 bg_image: images/background/page-title-autor.jpg
-description : "Über den Autor: Stefan Zörner."
+
+description : "Stefan Zörner ist Softwarearchitekt und Berater bei embarc in Hamburg. Er wirkt bei Entwurfs- und Umsetzungsfragen mit, unterstützt beim Festhalten von Architektur und beleuchtet Lösungsansätze in Bewertungen."
 
 layout: "autor"
 
