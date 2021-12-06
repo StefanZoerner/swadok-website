@@ -1,0 +1,7 @@
+SetOutputFilter DEFLATE
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.swadok.de$
+RewriteRule ^(.*)$ https://www.swadok.de/$1 [R=301,L]
+
+ErrorDocument 404 /404.html
