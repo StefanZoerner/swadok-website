@@ -1,8 +1,10 @@
 ---
 title: "Materialen"
+html_title: "Materialien: Sachen zum Herunterladen"
 header_title: "Materialien"
+
 bg_image: images/background/page-title-material.jpg
-description : "Materialien. Sachen zum Herunterladen."
+description : "Hier findet Ihr eine Leseprobe aus dem Buch, Beispielinhalte und Vorlagen zum Herunterladen. Weiterhin nützliche Informationen rund um das Buch, Links und Literaturtipps."
 
 intro:
   enable : true

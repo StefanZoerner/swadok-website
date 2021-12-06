@@ -1,5 +1,7 @@
 ---
 title: "Features"
+html_title: "Features: Was das Buch ausmacht"
+
 header_title: "Was das Buch ausmacht"
 bg_image: images/background/page-title-features.jpg
 description : "Features. Was das Buch ausmacht."

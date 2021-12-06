@@ -1,5 +1,6 @@
 ---
 title: "Qualitätsmerkmale"
+html_title: "Qualitätsmerkmale nach ISO 25010 "
 type : material
 weight: 40
 
@@ -28,5 +29,5 @@ Hier findet Ihr die "versprochene" Mindmap als Startpunkt z.B. für Euren Utitly
 
 #### Qualitätsmerkmale als Mindmap als Download
 
-* [Mindmap (XMind)](/downloads/qualitaetsmerkmale/Qualitaetsmerkmale.xmind) die Mindmap im XMind-Format
-* [Mindmap (Markdown)](/downloads/qualitaetsmerkmale/Qualiltaetsmerkmale.md) die Inhalte der Mindmap als Markdown-Datei
+* [Qualitätsmerkmale als Mindmap (XMind)](/downloads/qualitaetsmerkmale/Qualitaetsmerkmale.xmind) die Mindmap im XMind-Format
+* [Qualitätsmerkmale (Markdown)](/downloads/qualitaetsmerkmale/Qualiltaetsmerkmale.md) die Inhalte der Mindmap als Markdown-Datei

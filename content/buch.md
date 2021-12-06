@@ -1,7 +1,8 @@
 ---
 title: "Das Buch"
+html_title: "Softwarearchitekturen dokumentieren. Das Buch"
 header_title: "Softwarearchitekturen dokumentieren"
-date: 2018-07-12T18:19:33+06:00
+
 bg_image: images/background/page-title-buch.jpg
 description : "Ein Buch zum Festhalten von Softwarelösungen."
 layout: "buch"
@@ -13,7 +14,7 @@ intro:
   enable : true
   subtitle : Ein Buch zum Festhalten von Softwarelösungen
   title : Worum geht es?
-  content : Dokumentation wird oft als lästige Pflicht angesehen und in vielen Softwareprojekten stark vernachlässigt, die Architektur wird manchmal überhaupt nicht beschrieben. Damit das in Ihren Projekten nicht passiert, schlägt dieses Buch praxiserprobte und schlanke Bestandteile für eine wirkungsvolle Architekturdokumentation vor.
+  content : Dokumentation wird oft als lästige Pflicht angesehen und in vielen Softwareprojekten stark vernachlässigt, die Architektur wird manchmal überhaupt nicht beschrieben. Damit das in Euren Projekten nicht passiert, schlägt dieses Buch praxiserprobte und schlanke Bestandteile für eine wirkungsvolle Architekturdokumentation vor.
   image : images/buch/vision.jpg
 
 
@@ -27,13 +28,13 @@ mission:
   image : images/buch/3_Auflagen.png
   accordion:
   - title : Wissen
-    description : Sie erfahren, wie die Dokumentation der Architektur von einer lästigen Pflicht zum integralen Kommunikations- und Arbeitsmittel wird.
+    description : Ihr erfahrt, wie die Dokumentation der Architektur von einer lästigen Pflicht zum integralen Kommunikations- und Arbeitsmittel wird.
     
   - title : Können
-    description : Sie lernen, architekturrelevante Einflussfaktoren und zentrale Entscheidungen festzuhalten.
+    description : Ihr lernt, architekturrelevante Einflussfaktoren und zentrale Entscheidungen festzuhalten.
     
   - title : Erleben
-    description :  Sie erleben am Beispiel einer Schach-Engine, wie eine nachvollziehbare Architektur entsteht.
+    description :  Ihr erlebt am Beispiel einer Schach-Engine, wie eine nachvollziehbare Architektur entsteht.
 
 
 ###################################### funfacts ####################################
@@ -76,7 +77,7 @@ stichpunkte:
   - "Werkzeuge"
   - "Wiki vs. UML"
   - "Minimale Überblicke"
-  - "Docs-as-code"
+  - "Docs-as-Code"
   
   button:
     enable : false
