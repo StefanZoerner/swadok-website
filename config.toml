@@ -18,11 +18,6 @@ defaultContentLanguage = 'de'
 disableLanguages = ["fr", "en"] # desable language from here
 
 
-[taxonomies]
-  tag = ""
-  category = ""
-
-
 ############################# Outputs ##############################
 [outputs]
 home = ["HTML", "RSS"]
