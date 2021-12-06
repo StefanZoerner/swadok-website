@@ -34,4 +34,7 @@ Ziel ist nicht die höchstmögliche Spielstärke -- dennoch gelingen Partien, di
 Kapitel 9 enthält eine Architekturbeschreibung von DokChess gegliedert nach [arc42](/feature/arc42/).
 Alle Abschnitte sind "ausgefüllt". 
 
-Tatsächlich war DokChess sogar das erste vollständige, frei verfügbare Beispiel für arc42 im Netz. Es ist gemeinsam mit dem Buch entstanden seit der ersten Auflage 2012 unter [www.dokchess.de](https://www.dokchess.de) einsehbar. Mit den Auflagen hat es einige Aktualisierungen erfahren. Insbesondere ist das Beispiel mittlerweile auch auf Englisch verfügbar (ebenfalls auf der Seite).
+Tatsächlich war DokChess sogar das erste vollständige, frei verfügbare Beispiel für arc42 im Netz.
+Es ist gemeinsam mit dem Buch entstanden und seit der ersten Auflage 2012 unter [www.dokchess.de](https://www.dokchess.de) einsehbar.
+Mit den Auflagen hat es einige Aktualisierungen erfahren.
+Insbesondere ist das Beispiel mittlerweile auch auf Englisch verfügbar (ebenfalls auf der Seite).
