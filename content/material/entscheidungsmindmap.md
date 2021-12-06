@@ -28,5 +28,5 @@ Neugierig geworden? Wie Ihr mit der Vorlage arbeitet könnt Ihr im kostenlosen [
 
 #### Die Mindmap als Download
 
-* [Mindmap (XMind)](/downloads/entscheidungsmindmap/Entscheidungsmindmap.xmind) die Mindmap im XMind-Format
-* [Mindmap (Markdown)](/downloads/entscheidungsmindmap/Entscheidungsmindmap.md) die Inhalte der Mindmap als Markdown-Datei
+* [Entscheidungsmindmap (XMind)](/downloads/entscheidungsmindmap/Entscheidungsmindmap.xmind) die Mindmap im XMind-Format
+* [Entscheidungsmindmap (Markdown)](/downloads/entscheidungsmindmap/Entscheidungsmindmap.md) die Inhalte der Mindmap als Markdown-Datei
