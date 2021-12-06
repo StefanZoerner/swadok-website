@@ -1,5 +1,5 @@
 ######################### default configuration ###############################
-baseURL = "/"
+baseURL = "https://www.swadok.de/"
 title = "swadok.de"
 theme = "biztrox-hugo"
 # post pagination
