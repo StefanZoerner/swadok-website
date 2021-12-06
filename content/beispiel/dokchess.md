@@ -1,6 +1,7 @@
 ---
 title: "DokChess"
-description : "Beispiel: DokChess"
+html_title: "Beispiel: Schach-Engine DokChess"
+description : "Mit DokChess lernt Ihr das Nötigste, um selbst ein Schachprogramm zu bauen. Und Ihr erfahrt auf vergnügliche Weise en passant, wie Ihr ganz allgemein eine nachvollziehbare, angemessene Softwarearchitektur entwerfen, bewerten und festhalten könnt."
 bg_image: images/background/page-title.jpg
 image : images/beispiel/beispiel_dokchess.jpg
 live_demo : "https://www.dokchess.de"

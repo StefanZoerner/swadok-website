@@ -1,7 +1,8 @@
 ---
 title: "Gradle"
 header_title: "arc42-Starschnitt Gradle"
-description : "Beispiel: arc42-Starschnitt Gradle"
+html_title: "Beispiel: arc42-Starschnitt Gradle"
+description : "In Anlehnung an die Bravo-Serie liefert diese Blogserie einen Star der Softwareentwicklung Stück für Stück als Architekturüberblick."
 bg_image: images/background/page-title.jpg
 image : images/beispiel/beispiel_gradle.jpg
 live_demo : "https://www.embarc.de/arc42-starschnitt-gradle/"
