@@ -1,13 +1,15 @@
 ---
 title: "Confluence"
+category: "Online-Artikel"
+weight: 5
+
+html_title: "Beispiel: Atlassian Confluence (Enterprise Wiki)"
 header_title: "Atlassian Confluence"
 description : "Beispiel: Atlassian Confluence"
 bg_image: images/background/page-title.jpg
 image : images/beispiel/beispiel_confluence.jpg
 live_demo : "https://www.informatik-aktuell.de/entwicklung/methoden/architektur-ohne-firlefanz-ihre-loesung-auf-einem-bierdeckel.html"
 # case_study : "#"
-category: "Online-Artikel"
-weight: 5
 
 # overview
 overview:

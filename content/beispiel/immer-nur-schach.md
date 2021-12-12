@@ -1,14 +1,15 @@
 ---
 title: "immer-nur-schach.de"
-html_title: "Beispiel: immer-nur-schach.de"
+category: "Aus dem Buch"
+weight: 2
+
+html_title: "Beispiel: immer-nur-schach.de (Schach-Plattform)"
+
 description : "immer-nur-schach.de ist eine imaginäre Online-Plattform für Schachspieler."
 bg_image: images/background/page-title.jpg
 image : images/beispiel/beispiel_insde.jpg
 # live_demo : "#"
 # case_study : "#"
-category: "Aus dem Buch"
-weight: 2
-
 
 # overview
 overview:

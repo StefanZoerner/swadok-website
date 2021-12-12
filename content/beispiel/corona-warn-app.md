@@ -1,6 +1,9 @@
 ---
 title: "Corona-Warn-App"
-html_title: "Beispiel: Corona-Warn-App"
+category: "Flyer"
+weight: 3
+
+html_title: "Beispiel: Corona-Warn-App (Contact-Tracing)"
 description : "Die Inhalte dieses Überblicks entstanden im Rahmen eines Architektur-Reviews. Gezeigt wurden sie erstmals in einem Vortrag auf der OOP 2021."
 
 bg_image: images/background/page-title.jpg
@@ -8,9 +11,6 @@ image : images/beispiel/beispiel_cwa.jpg
 
 live_demo : "https://www.embarc.de/architektur-ueberblicke/#corona-warn-app"
 case_study : "https://d32km2qctfbkx6.cloudfront.net/flyer/CWA-Architekturueberblick_Flyer_embarc.pdf"
-
-category: "Flyer"
-weight: 3
 
 
 # overview
