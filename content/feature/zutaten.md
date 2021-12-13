@@ -4,7 +4,7 @@ type : feature
 weight: 10
 bg_image: images/feature/zutaten.jpg
 
-description : "Feature: Prägnante Zutaten"
+description : "Das Buch schlägt griffige Zutaten vor, mit denen Ihr Eure Softwarearchitektur festhalten und kommunizieren könnt."
 
 kachel_image: images/feature/zutaten.jpg
 kachel_icon: ti-layout-grid3

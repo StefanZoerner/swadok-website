@@ -5,7 +5,7 @@ weight: 20
 
 bg_image: images/feature/fallbeispiel.jpg
 
-description : "Feature: Durchgängiges Beispiel"
+description : "Das Schach-Programm DokChess zieht sich als roter Faden durch die Besprechungen der Dokumentationsmittel."
 
 kachel_image: images/feature/fallbeispiel.jpg
 kachel_icon: ti-control-forward
