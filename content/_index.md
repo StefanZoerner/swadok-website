@@ -188,13 +188,13 @@ testimonial:
 
 ##################################### call to action #################################
 call_to_action:
-  enable : false
-  bg_image : "images/background/cta.jpg"
-  title : "Das Buch kaufen"
+  enable : true
+  bg_image : "images/shopping-cart.jpg"
+  title : "Das Buch kaufen ..."
   button:
     enable : true
-    label : "Kaufen"
-    link : "contact"
+    label : "Amazon"
+    link : "https://www.amazon.de/Software-Architekturen-dokumentieren-kommunizieren-Entscheidungen-nachvollziehbar/dp/3446469281/"
       
 ########################################## blog ####################################
 blog:
