@@ -29,10 +29,6 @@ unsafe= true
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap"
-attributes = ""
-
-[[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 attributes = "media='screen'"
 

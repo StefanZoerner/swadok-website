@@ -13,10 +13,12 @@
 <meta name="theme-color" content="#ff0000">
 
 <!-- plugins -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
 {{ range site.Params.plugins.css}}
 <link rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}>
 {{ end }}
+
+<!-- Local Fonts  -->
+<link href="/fonts/localfonts.css" rel="stylesheet"> <!--load local fonts -->
 
 <!-- Main Stylesheet -->
 {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
