@@ -12,13 +12,13 @@
 <meta name="msapplication-TileColor" content="#83b7b3">
 <meta name="theme-color" content="#ff0000">
 
+<!-- Local Fonts  -->
+<link href="/fonts/localfonts.css" rel="stylesheet"> <!--load local fonts -->
+
 <!-- plugins -->
 {{ range site.Params.plugins.css}}
 <link rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}>
 {{ end }}
-
-<!-- Local Fonts  -->
-<link href="/fonts/localfonts.css" rel="stylesheet"> <!--load local fonts -->
 
 <!-- Main Stylesheet -->
 {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
