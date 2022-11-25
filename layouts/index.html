@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+<a rel="me" href="https://mastodon.social/@StefanZoerner"></a>
+
 {{ if .Params.slider.enable }}
 <section>
 	<div class="hero-slider position-relative">
@@ -202,7 +204,10 @@
 	</div>
 </section>
 {{ "<!-- /client logo slider -->" | safeHTML}}
-{{ end }}
-{{ end }}
 
+{{ "<!-- Mastodon verification -->" | safeHTML}}
+<a rel="me" href="https://mastodon.social/@StefanZoerner"></a>
+
+{{ end }}
+{{ end }}
 {{ end }}
